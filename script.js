@@ -80,3 +80,17 @@ books.delete("Pride and Prejudice");
 books.forEach(function (item) {
   console.log(item); // War and Peace
 });
+
+// DESTRUCTURING ARRAYS
+
+let [first, , , , fifth] = ["City1", "City2", "City3", "City4", "City5"];
+
+console.log(first); // City1
+console.log(fifth); // City5
+
+// INCLUDES FUNCTION
+
+let cities = ["City1", "City2", "City3", "City4", "City5"];
+
+console.log(cities.includes("City1")); // true
+console.log(cities.includes("city1")); // false
